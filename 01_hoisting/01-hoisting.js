@@ -1,42 +1,71 @@
-var x = 23;
-function getName(firstName) {
-  console.log(`My name is ${firstName}`);
-}
-getName("Ajay");
-console.log(`The value of x is : ${x}`);
+// v0
+// var x = 23;
+
+// function getName() {
+//   console.log("Namaste JavaScript");
+// }
+
+// getName();
+// console.log(x);
+
+// -------------
 
 // Hoisting
 
-// getName("Sanjay");
-// console.log(`The value of x is : ${x}`);
-// var x = 23;
-// function getName(firstName) {
-//   console.log(`My name is ${firstName}`);
-// }
+// v1
+getName();
+console.log(x);
 
-// getName("Sanjay");
-// console.log(`The value of x is : ${x}`);
-// function getName(firstName) {
-//   console.log(`My name is ${firstName}`);
-// }
-
-// myFunc("Sanjay");
-// console.log(`The value of x is : ${x}`);
-// var x = 23;
-// var myFunc = function getName(firstName) {
-//   console.log(`My name is ${firstName}`);
-// };
-
-// myFunc("Sanjay");
-// console.log(`The value of x is : ${x}`);
-// var x = 23;
-// var myFunc = function (firstName) {
-//   console.log(`My name is ${firstName}`);
-// };
-
-myFunc("Ajay");
-console.log(`The value of x is : ${x}`);
 var x = 23;
-var myFunc = (firstName) => {
-  console.log(`My name is ${firstName}`);
-};
+
+function getName() {
+  console.log("Namaste JavaScript");
+}
+
+// v2
+// getName();
+// console.log(x);
+
+// function getName() {
+//   console.log("Namaste JavaScript");
+// }
+
+// v3
+// console.log(x);
+
+// var x = 23;
+
+// function getName() {
+//   console.log("Namaste JavaScript");
+// }
+
+// console.log(x);
+
+// v4
+// console.log(getName);
+
+// function getName() {
+//   console.log("Namaste JavaScript");
+// }
+
+// console.log(getName );
+
+// v5
+// getName();
+// console.log(x);
+
+// var x = 23;
+
+// var getName = () => {
+//   console.log("Namaste JavaScript");
+// };
+
+// v6
+// getName();
+// console.log(x);
+
+// var x = 23;
+
+// var getName = function () {
+//   console.log("Namaste JavaScript");
+// };
