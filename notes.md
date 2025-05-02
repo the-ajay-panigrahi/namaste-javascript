@@ -23,3 +23,7 @@ Functions are fully hoisted with their definitions, while variables are hoisted 
 
 It means that JavaScript can only execute one command at a time in a specific order. It also means that it can move to the next line only after the current line has finished executing.  
 However, JavaScript can handle asynchronous operations using the event loop.
+
+### How JavaScript Code is executed? ❤️& Call Stack | Namaste JavaScript Ep. 2
+
+**Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-2--how-js-is-executed--call-stack)
