@@ -27,3 +27,7 @@ However, JavaScript can handle asynchronous operations using the event loop.
 ### How JavaScript Code is executed? ❤️& Call Stack | Namaste JavaScript Ep. 2
 
 **Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-2--how-js-is-executed--call-stack)
+
+### Episode 3 : Hoisting in JavaScript (variables & functions)
+
+**Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-3--hoisting-in-javascript-variables--functions)
