@@ -31,3 +31,9 @@ However, JavaScript can handle asynchronous operations using the event loop.
 ### Episode 3 : Hoisting in JavaScript (variables & functions)
 
 **Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-3--hoisting-in-javascript-variables--functions)
+
+
+### How functions work in JS ❤️ & Variable Environment | Namaste JavaScript Ep. 4
+
+**Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-4--functions-and-variable-environments)
+
