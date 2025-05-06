@@ -37,3 +37,11 @@ However, JavaScript can handle asynchronous operations using the event loop.
 
 **Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-4--functions-and-variable-environments)
 
+### SHORTEST JS Program 🔥window & this keyword | Namaste JavaScript Ep. 5
+
+**Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-5--shortest-js-program-window--this-keyword)
+
+### SHORTEST JS Program 🔥window & this keyword | Namaste JavaScript Ep. 6
+
+**Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-6--undefined-vs-not-defined-in-js)
+
