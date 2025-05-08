@@ -45,3 +45,11 @@ However, JavaScript can handle asynchronous operations using the event loop.
 
 **Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-6--undefined-vs-not-defined-in-js)
 
+### The Scope Chain, 🔥Scope & Lexical Environment | Namaste JavaScript Ep. 7
+
+**Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-7--the-scope-chain-scope--lexical-environment)
+
+### let & const in JS 🔥Temporal Dead Zone | | Namaste JavaScript Ep. 8
+
+**Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-8--let--const-in-js-temporal-dead-zone)
+
