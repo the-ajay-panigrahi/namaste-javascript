@@ -53,3 +53,7 @@ However, JavaScript can handle asynchronous operations using the event loop.
 
 **Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-8--let--const-in-js-temporal-dead-zone)
 
+### BLOCK SCOPE & Shadowing in JS 🔥| Namaste JavaScript 🙏 Ep. 9
+
+**Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-9--block-scope--shadowing-in-js)
+
