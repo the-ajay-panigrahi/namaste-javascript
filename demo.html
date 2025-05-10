@@ -9,7 +9,21 @@
 
 <body>
     <script>
-
+        function outerMostFunction() {
+            let b = 60
+            function outerFunction() {
+                let a = 55
+                function innerFunction() {
+                    console.log(a + b);
+                }
+                a = 40
+                b = 70
+                return innerFunction
+            }
+            return outerFunction()
+        }
+        const result = outerMostFunction()
+        result()
     </script>
 </body>
 

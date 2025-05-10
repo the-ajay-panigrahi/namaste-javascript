@@ -57,3 +57,8 @@ However, JavaScript can handle asynchronous operations using the event loop.
 
 **Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-9--block-scope--shadowing-in-js)
 
+### Closures in JS 🔥 | Namaste JavaScript Episode 10
+
+**Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-10--closures-in-js)
+
+ 
