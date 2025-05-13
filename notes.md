@@ -61,4 +61,8 @@ However, JavaScript can handle asynchronous operations using the event loop.
 
 **Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-10--closures-in-js)
 
+### setTimeout + Closures Interview Question 🔥 | Namaste 🙏 JavaScript Ep. 11
+
+**Notes**- [click here](https://alok722.github.io/namaste-javascript-notes/dist/lectures.html#episode-11--settimeout--closures-interview-question)
+
  

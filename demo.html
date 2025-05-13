@@ -5,24 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
 </head>
 
 <body>
     <script>
-        function outerMostFunction() {
-            let b = 60
-            function outerFunction() {
-                let a = 55
-                function innerFunction() {
-                    console.log(a + b);
-                }
-                a = 40
-                b = 70
-                return innerFunction
+        function outerFunction() {
+            let a = 100
+            function innerFunction() {
+                console.log(a);
             }
-            return outerFunction()
+            return innerFunction
         }
-        const result = outerMostFunction()
+        const result = outerFunction()
         result()
     </script>
 </body>
