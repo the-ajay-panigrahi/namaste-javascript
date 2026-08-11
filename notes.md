@@ -40,6 +40,13 @@ Hoisting is a mechanism that allows you to use variables and functions before th
 
 ---
 
+### Memory Space in Execution Context & Variable Lookup
+
+- Every **Execution Context** (whether Global or Functional) creates its own separate **Memory Component (Variable Environment)**. Because of these distinct memory spaces, variables declared with the same name in different execution contexts exist independently without conflicting with each other.
+- When a variable is accessed inside an execution context, JavaScript first searches its own **local memory space**. If the variable is found locally, that value is used; if it is not found in local memory, JavaScript traverses the **lexical environment chain** by checking the parent lexical reference to resolve the variable from the outer/global scope.
+
+---
+
 ### Shortest JS Program, window & this keyword
 
 The shortest JS program is an empty file because even in that case, the JS engine performs several actions. As usual, it creates the Global Execution Context (GEC), which has a memory space.
