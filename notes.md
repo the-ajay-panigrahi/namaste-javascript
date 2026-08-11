@@ -4,7 +4,7 @@
 - Execution Context has 2 components/phases in it:
   1. **Memory Component / Memory Creation Phase** - It is the place where all variables and functions are stored as key value pairs. This memory component is also known as **Variable Environment**.
   2. **Code Component / Code Execution Phase** - It is the place where code is executed one line at a time. This code component is also known as **Thread of Execution**.
-  ![Execution Context](./assets/01_execution-context.png)
+<img src="./assets/01_execution-context.png" alt="Execution Context" width="500" />
 
 #### **"JavaScript is a Synchronous Single Threaded Language"**
 - So when we say single threaded that means js can only execute one command at a time in a specific order(synchronous).
@@ -15,7 +15,7 @@
 - **An Execution Context is created!**
 #### So let us now see how this beautiful **execution context** is created with the help of a **JS Program**.
 
-![Execution Context](./assets/02_execution-context.png)
+<img src="./assets/02_execution-context.png" alt="Execution Context" width="500" />
 
 - Whenever a js program is executed a global execution context is created, having 2 phases(memory creation phase & code execution phase) one after the other does their work of running the program.
 
@@ -111,7 +111,7 @@ A key point is that the execution order of async scripts is not guaranteed. A sc
 
 The use of defer is generally recommended because it doesn't block HTML parsing and ensures scripts that depend on the HTML structure (like manipulating the DOM) are executed at the appropriate time.
 
-![async-defer attributes](./assets/03_async-defer-attributes.png)
+<img src="./assets/03_async-defer-attributes.png" alt="async-defer attributes" width="500" />
 
 **This table summarizes how the placement and attributes of a `<script>` tag affect when the script loads and executes, and how it impacts the parsing of your HTML document.**
 
@@ -138,7 +138,7 @@ The term **Lexical** means in hierarchy or in a sequence.
 
 In the global space the lexical environment points to null.
 
-![scope chain](./assets/04_scope-chain.png)
+<img src="./assets/04_scope-chain.png" alt="scope chain" width="500" />
 
 Scope Chain is basically this chain of lexical environments(and its parent references).
 
@@ -281,7 +281,9 @@ ans();
 ```
 
 **Advantages of Closures**
-![[closures.png]]
+
+<img src="./assets/closures.png" alt="closures" width="500" />
+
 - Data Privacy / Data Hiding / Encapsulation
 ```js
 // closure application - data privacy also known as encapsulation
@@ -539,8 +541,8 @@ So we remove event listeners when we don't need them (garbage collected) onClick
 
 ### Event Loop
 
-![Event Loop](./assets/05_event-loop.png)
-![Event Loop](./assets/06_event-loop.png)
+<img src="./assets/05_event-loop.png" alt="Event Loop" width="500" />
+<img src="./assets/06_event-loop.png" alt="Event Loop" width="500" />
 
 #### What enters the Microtask Queue ?
 
@@ -562,10 +564,11 @@ So we remove event listeners when we don't need them (garbage collected) onClick
     1. **Parsing** - Code is broken down into tokens. In `let a = 7`, `let`, `a`, `=`, and `7` are all tokens. We also have a Syntax Parser that takes the code and converts it into an AST (Abstract Syntax Tree), which is a JSON-like structure with keys such as type, start, end, body, etc. (Looks like package.json but for a line of JavaScript code. Kinda unimportant.) Check out astexplorer.net -  it converts a line of code into an AST.
     2. **Compilation** - JS has something called Just-In-Time (JIT) Compilation, which uses both an interpreter and a compiler. Compilation and execution go hand in hand. The AST from the previous step goes to the interpreter, which converts high-level code into bytecode and moves it to execution. While interpreting, the compiler also works hand in hand to compile and create optimized code during runtime. **Does JavaScript really compile?** The answer is a loud **YES**. JS used to be only interpreted in older times, but now it both compiles and interprets code, making it a JIT-compiled language. It's like the best of both worlds.
     3. **Execution** - This needs 2 components: the Memory Heap (the place where all memory is stored) and the Call Stack (the same Call Stack from previous episodes). There is also a Garbage Collector. It uses an algorithm called **Mark and Sweep**.
-    ![[js runtime.png]]
+    <img src="./assets/js runtime.png" alt="js runtime" width="500" />
 
 - v8 of Google has Interpreter called Ignition, a compiler called Turbo Fan and garbage collector called Orinoco. 
-- v8 architecture :-![[js execution.png]]
+- v8 architecture :-
+  <img src="./assets/js execution.png" alt="v8 architecture" width="500" />
 
 (Read about oilpan garbage collector, read about mark and sweep algorithm, inlining, copy elison, inline caching)
 
