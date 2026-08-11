@@ -4,6 +4,7 @@
 - Execution Context has 2 components/phases in it:
   1. **Memory Component / Memory Creation Phase** - It is the place where all variables and functions are stored as key value pairs. This memory component is also known as **Variable Environment**.
   2. **Code Component / Code Execution Phase** - It is the place where code is executed one line at a time. This code component is also known as **Thread of Execution**.
+
 <img src="./assets/01_execution-context.png" alt="Execution Context" width="500" />
 
 #### **"JavaScript is a Synchronous Single Threaded Language"**
@@ -568,6 +569,7 @@ So we remove event listeners when we don't need them (garbage collected) onClick
 
 - v8 of Google has Interpreter called Ignition, a compiler called Turbo Fan and garbage collector called Orinoco. 
 - v8 architecture :-
+
   <img src="./assets/js execution.png" alt="v8 architecture" width="500" />
 
 (Read about oilpan garbage collector, read about mark and sweep algorithm, inlining, copy elison, inline caching)
