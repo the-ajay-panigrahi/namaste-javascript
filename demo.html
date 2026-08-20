@@ -14,15 +14,20 @@
 
 <body>
     <script>
-        function outerFunction() {
-            let a = 100
-            function innerFunction() {
-                console.log(a);
+        function closureTest() {
+            for (var i = 1; i <= 5; i++) {
+                function close(x) {
+                    setTimeout(() => {
+                        console.log(x);
+
+                    }, x * 1000)
+                }
+                close(i)
+
             }
-            return innerFunction
+
         }
-        const result = outerFunction()
-        result()
+        closureTest()
     </script>
 </body>
 
